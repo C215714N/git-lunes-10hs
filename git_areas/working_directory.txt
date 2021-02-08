@@ -8,9 +8,8 @@ WORKING DIRECTORY: (Directorio de trabajo)
 	trabajar con el contenido.
 
 COMANDOS:
-	
-	ls/dir	=> listan el contenido de un directorio
 
+	ls/dir	=> listan el contenido de un directorio
 	cd se utiliza para navegar entre las carpetas
 	cd <folder>	=> abre el directorio especificado
 	cd ..		=> vuelve al directorio anterior
