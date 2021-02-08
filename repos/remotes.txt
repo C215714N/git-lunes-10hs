@@ -26,4 +26,3 @@ ACCIONES
 	git push <url>	envia el historial de cambios y los archivos al REPOSITORIO REMOTO
 			(Permite crear/eliminar ramas de los remotos)
 
-
