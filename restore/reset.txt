@@ -23,7 +23,23 @@ GIT
 	git reset --hard <REF*> => elimina los commits, reestablece el INDEX y modifica el WORKING DIRECTORY
 				   (debemos utilizar este comando en caso de querer descartar totalmente un historial de cambios)
 
-	REF*
-		HEAD^	=> commit padre
-		HEAD~1	=> commit anterior
-		abc123	=> commit especifico
+REVERT	(Revertir)
+	Comando que genera un nuevo commit deshaciendo
+	los cambios de un commit especificado, es ideal
+	para cuando ya tenemos subidos los cambios a un
+	repositorio remoto y queremos revetir la situacion
+	generada en un commit.
+
+	NOTA: En caso de habernos equivocado a la hora de
+	aplicar dicho comando, podemos eliminar el commit
+	que deshace los cambios o revertir el mismo.
+
+GIT
+	git revert <REF*> => elimina los cambios generando un nuevo commit
+
+
+REF*
+	HEAD^	=> commit padre
+	HEAD~1	=> commit anterior
+	abc123	=> commit especifico
+
