@@ -1,0 +1,14 @@
+## carpetas temporales
+temp/
+tmp/
+node_modules/
+## archivos temporales
+*.tmp
+*.temp
+
+## archivos de consola
+*.git
+*.sh
+
+## archivos ignorados
+template.txt
