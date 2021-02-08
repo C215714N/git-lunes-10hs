@@ -1,0 +1,29 @@
+RESET	(REINICIAR)
+	Comando que permite la eliminacion de commits
+	del historial ordinalmente, por consecuente
+	tambien se eliminan los cambios del respositorio
+	y si lo especificamos tambien del working directory.
+
+	NOTA: Debemos utilizar este comando unicamente si 
+	los cambios aun no fueron subidos en el repositorio	
+	remoto, ya que estamos alterando el historial y 
+	podemos comprometer el trabajo de otras personas que
+	esten utilizando el mismo.
+
+
+GIT
+	git reset --soft <REF*> => elimina los commits indicados pero no modifica las areas
+				   WORKING DIRECTORY ni el INDEX 
+				   (de ser necesario debemos generar un commit que registre algunos cambios descartados)
+
+	git reset --mixed <REF*> => elimina los commits indicados y reestablece el index al
+				    estado original del HEAD, solamente mantiene el WORKING DIRECTORY
+				    (debemos volver a agregar los archivos al INDEX y emitir un commit)
+
+	git reset --hard <REF*> => elimina los commits, reestablece el INDEX y modifica el WORKING DIRECTORY
+				   (debemos utilizar este comando en caso de querer descartar totalmente un historial de cambios)
+
+	REF*
+		HEAD^	=> commit padre
+		HEAD~1	=> commit anterior
+		abc123	=> commit especifico
