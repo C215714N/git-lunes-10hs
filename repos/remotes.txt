@@ -15,3 +15,14 @@ GIT
 	git remote add <alias> <url> => carga un remoto
 	git remote remove <alias> => remueve el remoto de la lista
 	git remote rename <old> <new> => cambia el nombre del remoto
+
+ACCIONES
+	git fetch <url>	trae el historial de cambios al repositorio pero NO MODIFICA el WORKING DIRECTORY
+			(Solamente Actualiza la carpeta .git)
+
+	git pull <url>	trae el historial de cambios y actualiza el WORKING DIRECTORY con un nuevo Commit
+			(Realiza un FETCH + MERGE)
+
+	git push <url>	envia el historial de cambios y los archivos al REPOSITORIO REMOTO
+			(Permite crear/eliminar ramas de los remotos)
+

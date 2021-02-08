@@ -1,0 +1,20 @@
+* 606729b (HEAD -> master, IT/master) se agrego contenido - stash log
+* 41eefe0 se agrego contenido - rebase logs
+* 6618ca6 se agrego contenido - remotos
+* 8215dfd se agrego contenido - areas de git
+| * 78b169f (IT/branches, branches) se edito contenido - branches (merge)
+| * 383cfbb se edito contenido - branches (eliminar)
+| * 9e1dd39 se agrego contenido - branches
+| * 3718504 Configuracion - se agrego user.txt
+| * 40d04b5 (IT/rebase, rebase) se edito contenido - rebase (comandos)
+| * 4bb9929 se agrego contenido - rebase (teoria)
+|/
+| * dc0ad21 (IT/repositories, repositories) se edito contenido - working directory
+| * b2efde9 Se edito contenido - remotes (actions)
+| * bf6b044 se agrego contenido - repositorios remotos
+| * 923b264 se agrego contenido - local repository
+| * 8136d29 se agrego contenido - staging area
+| * 13390e3 (development) se agrego contenido - Working Directory
+| * 8e7d28d Configuracion - se agrego user.txt
+|/
+* 47ec40e Primer Commit - se agrego config.txt
