@@ -1,0 +1,22 @@
+*   3704cf5 (HEAD -> master, IT/master) Integracion comandos - reestablecer
+|\  
+| * d05dac9 (IT/development, development) Revert "modificacion 2"
+| * 65ffd31 linea 6
+| * 4fb0f90 linea 5
+| * f2af55d modificacion 2
+| * 6038ba3 modificacion 1
+| * d80ff41 linea 4
+| * 8c16a82 linea 3
+| * 2c81443 linea 2
+| * e7c93c7 linea 1
+| * 4368194 se agrego contenido - revert
+| * 53dd7e4 se agrego contenido - reset
+| * 13390e3 se agrego contenido - Working Directory
+| * 8e7d28d Configuracion - se agrego user.txt
+* | 5b75900 se agrego contenido - rebase master log
+* | 606729b se agrego contenido - stash log
+* | 41eefe0 se agrego contenido - rebase logs
+* | 6618ca6 se agrego contenido - remotos
+* | 8215dfd se agrego contenido - areas de git
+|/  
+* 47ec40e Primer Commit - se agrego config.txt
